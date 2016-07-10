@@ -1,6 +1,7 @@
 # rastreio
 > Saiba onde estão suas encomendas
 
+[![Build Status](https://travis-ci.org/marcosisocram/rastreio.svg?branch=master)](https://travis-ci.org/marcosisocram/rastreio) [![Coverage Status](https://coveralls.io/repos/github/marcosisocram/rastreio/badge.svg?branch=master)](https://coveralls.io/github/marcosisocram/rastreio?branch=master)
 ---
 ## Instalação
 ```sh
