@@ -1,0 +1,22 @@
+{
+  "Envelope": {
+    "Header": {
+      "__prefix": "soapenv"
+    },
+    "Body": {
+      "buscaEventosLista": {
+        "usuario": "ECT",
+        "senha": "SRO",
+        "tipo": "T",
+        "resultado": "L",
+        "lingua": "101",
+        "objetos": [],
+        "__prefix": "res"
+      },
+      "__prefix": "soapenv"
+    },
+    "_xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+    "_xmlns:res": "http://resource.webservice.correios.com.br/",
+    "__prefix": "soapenv"
+  }
+}

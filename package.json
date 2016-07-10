@@ -1,0 +1,57 @@
+{
+  "name": "rastreio",
+  "version": "0.1.0",
+  "description": "saiba onde estão suas encomendas",
+  "homepage": "https://github.com/marcosisocram/rastreio#readme",
+  "scripts": {
+    "build": "babel src -d app",
+    "prepublish": "npm run build",
+    "test": "npm run build && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "xo src/*.js src/**/*.js --esnext"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "rastreio",
+    "encomendas",
+    "rastreamento",
+    "correios"
+  ],
+  "bin": {
+    "rastreio": "./app/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marcosisocram/rastreio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcosisocram/rastreio/issues"
+  },
+  "author": {
+    "name": "Marcos Paulo",
+    "email": "marcosisocram@gmail.com"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "license": "MIT",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "meow": "^3.7.0",
+    "moment": "^2.13.0",
+    "promise": "^7.1.1",
+    "x2js": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "coveralls": "^2.11.9",
+    "execa": "^0.4.0",
+    "nyc": "^6.6.1",
+    "xo": "^0.16.0"
+  }
+}

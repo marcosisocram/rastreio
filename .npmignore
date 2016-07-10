@@ -1,0 +1,7 @@
+.babelrc
+.editorconfig
+.travis.yml
+coverage
+.nyc_output
+src
+test
