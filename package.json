@@ -11,7 +11,7 @@
     "lint": "xo src/*.js src/**/*.js --esnext"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.12.0"
   },
   "keywords": [
     "rastreio",
@@ -41,7 +41,6 @@
     "get-stdin": "^5.0.1",
     "meow": "^3.7.0",
     "moment": "^2.13.0",
-    "promise": "^7.1.1",
     "x2js": "^2.0.1"
   },
   "devDependencies": {

@@ -1,5 +1,4 @@
 import X2JS from 'x2js';
-import Promise from 'promise';
 import {request} from './request';
 import {xml as _xml} from './formato/xml';
 import {json as _json} from './formato/json';

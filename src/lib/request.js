@@ -1,5 +1,4 @@
 import http from 'http';
-import Promise from 'promise';
 import {toXml} from './util/to-xml';
 
 export function request(objetos = [], resultado = 'T') {
