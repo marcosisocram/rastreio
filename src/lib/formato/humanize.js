@@ -35,7 +35,7 @@ function eve(evento) {
 	let eventos = '';
 	let end = '';
 	let detalhe = '';
-	// console.log('evento:', evento);
+
 	const dia = moment(evento.data + evento.hora,
 		'DD/MM/YYYYHH:mm')
 	.calendar();
@@ -64,7 +64,7 @@ export function humanize(jsObj) {
 	const retn = [];
 
 	jsObj = jsObj.return;
-	// console.log('jsObj:', jsObj);
+
 	if (!Array.isArray(jsObj.objeto)) {
 		retn.push(obj(jsObj.objeto));
 		//
