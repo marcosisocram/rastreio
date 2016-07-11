@@ -57,20 +57,23 @@ test('número de rastreamento errado', t => {
 	});
 });
 
-test('resultado errado', t => {
-	return execa('node', ['./app/cli.js', 'TE123456785AA', '-r errado'])
+test('stdin', t => {
+	return execa.shell('echo TE123456785AA | node ./app/cli.js --stdin')
 	.then(result => {
-		t.regex(result.stderr, /.{0,}/);
+		t.regex(result.stdout.toUpperCase(), /OBJETO SAIU PARA ENTREGA/);
 	})
 	.catch(err => {
 		t.fail(err);
 	});
 });
 
-test('formato errado', t => {
-	return execa('node', ['./app/cli.js', 'TE123456785AA', '-f errado'])
+test('sem stdin', t => {
+	return execa.shell('echo TE123456785AA | node ./app/cli.js')
 	.then(result => {
-		t.regex(result.stderr, /.{0,}/);
+		t.regex(result.stdout, /rastreio <arg> <arg>/);
+		t.regex(result.stdout, /Uso:/);
+		t.regex(result.stdout, /Exemplo:/);
+		t.regex(result.stdout, /cat rastreio\.js |/);
 	})
 	.catch(err => {
 		t.fail(err);
