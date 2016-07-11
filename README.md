@@ -1,9 +1,10 @@
 # rastreio
-
-[![Join the chat at https://gitter.im/marcosisocram/rastreio](https://badges.gitter.im/marcosisocram/rastreio.svg)](https://gitter.im/marcosisocram/rastreio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Saiba onde estão suas encomendas
 
-[![Build Status](https://travis-ci.org/marcosisocram/rastreio.svg?branch=master)](https://travis-ci.org/marcosisocram/rastreio) [![Coverage Status](https://coveralls.io/repos/github/marcosisocram/rastreio/badge.svg?branch=master)](https://coveralls.io/github/marcosisocram/rastreio?branch=master)
+[![Build Status](https://travis-ci.org/marcosisocram/rastreio.svg?branch=master)](https://travis-ci.org/marcosisocram/rastreio)
+[![Coverage Status](https://coveralls.io/repos/github/marcosisocram/rastreio/badge.svg?branch=master)](https://coveralls.io/github/marcosisocram/rastreio?branch=master)
+[![Junte-se ao chat em https://gitter.im/marcosisocram/rastreio](https://badges.gitter.im/marcosisocram/rastreio.svg)](https://gitter.im/marcosisocram/rastreio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ---
 ## Instalação
 ```sh
