@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import getStdin from 'get-stdin';
 import meow from 'meow';
-import {rastreio} from './lib/rastreio';
+import rastreio from './lib/rastreio';
 import {formato, resultado} from './lib/util/decisao';
 
 const minimistOpcs = {
