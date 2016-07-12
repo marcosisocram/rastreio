@@ -1,5 +1,5 @@
 import test from 'ava';
-import {rastreio} from './../app/lib/rastreio';
+import rastreio from './../app/lib/rastreio';
 
 test('dados corretos', t => {
 	return rastreio(['TE123456785AA'], {resultado: 'ultimo', formato: 'json'})

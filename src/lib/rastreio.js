@@ -4,7 +4,7 @@ import {xml as _xml} from './formato/xml';
 import {json as _json} from './formato/json';
 import {humanize as _humanize} from './formato/humanize';
 
-export function rastreio(objetos = [], opcoes = {}) {
+export default function rastreio(objetos = [], opcoes = {}) {
 	opcoes.resultado = opcoes.resultado.toUpperCase();
 	const resultado = ['U', 'T', 'ULTIMO', 'TODOS'].indexOf(opcoes.resultado);
 	const formato = ['xml', 'json', 'humanize'].indexOf(opcoes.formato);

@@ -1,6 +1,6 @@
 {
   "name": "rastreio",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "saiba onde estão suas encomendas",
   "homepage": "https://github.com/marcosisocram/rastreio#readme",
   "scripts": {
@@ -22,7 +22,7 @@
   "bin": {
     "rastreio": "./app/cli.js"
   },
-	"main": "./app/lib/rastreio.js",
+  "main": "./app/lib/rastreio.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:marcosisocram/rastreio.git"
